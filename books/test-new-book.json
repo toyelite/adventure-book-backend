@@ -1,0 +1,33 @@
+{
+  "title" : "Test New Book",
+  "author" : "Leonardo Troeira",
+  "difficulty" : "MEDIUM",
+  "categories" : [ "Adventure", "Mystery" ],
+  "sections" : [ {
+    "id" : 1,
+    "text" : "You wake up in a dark prison cell.",
+    "type" : "BEGIN",
+    "options" : [ {
+      "description" : "Try to open the door",
+      "gotoId" : 500,
+      "consequence" : null
+    }, {
+      "description" : "Look under the bed",
+      "gotoId" : 20,
+      "consequence" : null
+    } ]
+  }, {
+    "id" : 500,
+    "text" : "You wake up in a dark prison cell.",
+    "type" : "NODE",
+    "options" : [ {
+      "description" : "Try to open the door",
+      "gotoId" : 500,
+      "consequence" : null
+    }, {
+      "description" : "Look under the bed",
+      "gotoId" : 20,
+      "consequence" : null
+    } ]
+  } ]
+}

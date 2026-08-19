@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: adventure-book-backend
+server:
+  port: 8080
+logging:
+  level:
+    adventure.book.backend: INFO
+books:
+  directory: ./books
+games:
+  directory: ./games
